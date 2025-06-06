@@ -1,0 +1,133 @@
+body{
+    margin: 0px;
+    overflow: hidden;
+}
+nav{
+    background-color: rgb(243, 255, 251);
+    padding: 10px;
+    margin-left: 0px;
+    display: flex;
+    border-width: 0px 0px 10px 0px;
+    border-color: black;
+    border-style: solid;
+    width: 1550px;
+    
+    & h1{
+        font-size: 30px;
+    }
+
+    & h3{
+        margin-top: 30px;
+        margin-left: 20px;
+        cursor: pointer;
+    }
+
+    & input, button{
+        height: 45px;
+        margin-top: 20px;
+        
+    }
+
+    & #searchbar {
+        margin-left: 700px;
+        border-radius: 9px 0px 0px 9px;
+        width: 250px;
+    }
+
+    & #searchBtn{
+        border-radius: 0px 9px 9px 0px;
+        background-color: rgb(217, 205, 228);
+    }
+
+}
+
+
+#counter{
+    margin-top: 400px;
+    position: fixed;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+#topics-counter{
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    color: rgb(113, 31, 190);
+    text-shadow: 1px 1px  rgb(59, 45, 210);
+}
+
+#container{
+margin: auto;
+padding: 10px;
+width: 800px;
+height: 600px;
+border-width: 0px 8px 0px 8px;
+border-color: black;
+border-style: solid;
+overflow: scroll;
+overflow-x: hidden;
+
+
+
+
+}
+
+#post{
+    width: 600px;
+    margin: auto;
+    margin-bottom: 20px;
+    background-color: rgb(254, 254, 254);
+    padding: 10px;
+
+    border-width: 3px 3px 7px 3px;
+    border-color: black;
+    border-style: solid;
+    
+}
+
+
+/*Página Create :*/
+    #thread-title , #edit-title{
+    width: 700px;
+    display: flex;
+    padding: 15px;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-top: 10px;
+    color: black;
+}
+
+
+textarea{
+    width: 700px;
+    height: 200px;
+    display: flex;
+    padding: 15px;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-top: 10px;
+    color: black;
+
+}
+
+#postBtn{
+    margin-top: 10px;
+    margin-left: 700px;
+    width: 60px;
+    height: 30px;
+    background-color: rgb(83, 83, 210);
+    color: white;
+    border-radius: 6px;
+}
+
+/*Página View: */
+
+
+#topic-content{
+ font-size: 30px;
+text-align: center;
+width: 650px;
+margin: auto;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Editar Tópico</title>
+  <link rel="stylesheet" href="src/style.css" />
+</head>
+<body>
+  <nav>
+    <h1>Randone <span style="color: rgb(0, 8, 255)">Brain Dump</span></h1>
+    <h3><a href="index.html"> < Voltar</a></h3>
+  </nav>
+
+  <main>
+    <img style="width: 350px; z-index: 0; position: fixed;" src="images/randone.jpg" alt=""/>
+    <div id="container">
+      <h2 style="margin-left: 20px;">Editar Título:</h2>
+      <input type="text" id="edit-title" placeholder="Título do post" />
+      <h2 style="margin-left: 20px;">Editar Conteúdo:</h2>
+      <textarea id="edit-content" placeholder="Conteúdo do tópico"></textarea>
+      <button id="postBtn" onclick="salvarEdicao()">Salvar</button>
+    </div>
+  </main>
+
+  <script src="edit.js"></script>
+</body>
+</html>
